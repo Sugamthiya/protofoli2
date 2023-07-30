@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 85%;
+}
+.nav-section{
+    background-image: url(./image/background-image.jpg);
+    background-position: center;
+    background-repeat: cover;
+    height:90vh;
+    background-size: cover;
+}
+.logo{
+    width: 30%;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 30px 0;
+}
+.nav-bar {
+    width: 70%;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.nav ul li {
+    list-style: none;
+}
+.inner-section h1 {
+    text-align: center;
+}
+.inner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    background: #171733;
+    opacity: 0.8;
+    padding: 45px 30px;
+    color: white;
+}
+.inner-section p {
+    text-align: center;
+    margin-top: 20px;
+} 
+.inner-section p{
+    text-align: center;
+}
+.inner-section span {
+    background: green;
+    width: 100px;
+    height: 3px;
+    display: inline-block;
+}
+.inner-section h2 {
+    font-weight: 200;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+.inner-section button {
+    margin-top: 20px;
+    padding: 5px 30px;
+    background: #2fa92f;
+}
+.clinic-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 6px 9px gray;
+    padding: 40px;
+    width: calc(100% - 100px);
+    background: white;}
+    .image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+section.ketaminic.clinic {
+    margin: 50px 0;
+}
+.ketamine-section span {
+    font-weight: 200;
+    color: #808080d1;
+    /* margin-bottom: 30px; */
+}
+i {
+    margin-right: 20px;
+}
+.details h3,.details h4 {
+    margin-top: 20px;
+}
+.ketamine-section p {
+    margin-top: 30px;
+}
+.line span {
+    background: green;
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+}
+.image {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    z-index: -1;
+}
+.parent-section {
+    position: relative;
+}
+.division-section {
+    margin: 50px 0;
+    overflow: auto;
+}
+.row{
+    width: 100%;
+}
+.col1 {
+    width: 50%;
+    float: left;
+}
+.col1 img {
+    width: 100%;
+    height: 400px;
+}
+.col2 {
+    width: 50%;
+    float: right;
+    height: 400px;
+}
+.row1 {
+    width: 100%;
+}
+.col4 {
+    width: 50%;
+    height: 200px;
+    float: left;
+    background: #8080804a;
+    padding: 20px;
+   
+}
+.col5 {
+    width: 100%;
+    height:auto;
+    padding: 20px;
+    clear: both;
+}
+.col3 {
+    width: 50%;
+    height: 200px;
+    float: left;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+.divide {
+    display: flex;
+    justify-content: space-around;
+}
+.contact-section{
+    background-image: url(./image/background-image.jpg);
+    background-position: cover;
+    background-size: cover;
+   
+}
+.divide::before {
+    content: "";
+    background: #5b31a35c;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border: 0;
+}
+.image3 {
+    margin-top: 30px;
+}
+.image2 {
+    margin-top: 30px;
+}
+.bg-color {
+    position: relative;
+}
+.flex p,.flex h1 {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.contact-about h1 {
+    color: black;
+    text-align: center;
+}
+.classline span {
+    background: green;
+    width: 100px;
+    display: inline-block;
+    height: 3px;
+    /* top: 60px; */
+}.divide {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.contact-about h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.social-media {
+    margin-top: 30px;
+}
+.social-media p {
+    margin-top: 20px;
+}
+
+.contact-about {
+    background: white;
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    bottom: -44px;
+    box-shadow: 3px 5px 9px;
+
+
+}.contact-about input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact-about{
+    text-align: center;
+}
+.nav-bar ul li:hover{
+    background-color: black;
+    color: white;
+}
+.contact-about button {
+    margin-top: 30px;
+    text-align: center;
+    background: green;
+    padding: 10px 20px;
+}
+section.who-we-are {
+    margin: 100px 0;
+}
+.classline {
+    margin-bottom: 20px;
+}
+.flex p {
+    margin-top: 20px;
+}
+.professional-person {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.professional-person h1 {
+    text-align: center;
+}
+section.fotter {
+    background: navy;
+    color: white;
+}
+.fotter-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fotter-section h1, .fotter-section h5 {
+    text-align: center;
+}
+.social-media i {
+    margin-bottom: 10px;
+}
+.footer-section h1{
+    margin-top: 30px;
+}
+  .btn {
+    display: none;
+}
+.ketamine-section {
+    /* width: 100%; */
+    margin-right: 20px;
+}
+section.fotter {
+    margin-top: 100px;
+}
+.line-clamp{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+}
+button#read-more,#less-more {
+    margin-top: 20px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#less-more{
+    display: none;
+} 
+@media(max-width:768px){
+  
+.btn {
+    display: block;
+}
+.hide{
+    display: none;
+}
+.clinic-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width:100%;
+    padding: 10px;
+}
+.divide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.professional-person {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.fotter-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo {
+    width: 0;
+}
+.nav-bar{
+    width: 0;
+}
+.nav{
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar ul {
+    left: 0;
+    line-height: 27px;
+    position: absolute;
+    top: 50px;
+    display: block;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+    background: black;
+    text-align: center;
+}
+.nav-bar ul li:hover{
+    background-color: white;
+    color: black;
+}
+.col1 {
+    width: 100%;
+}
+.col2{
+    width: 100%;
+    height: auto;
+}
+.col4 {
+    padding: 5px;
+    height: auto;
+}
+.col4 {
+    width: 50%;
+    padding: 5px;
+}
+.col3 {
+    height: auto;
+    padding: 5px;
+}
+.social-media {
+    margin-top: 30px;
+    text-align: center;
+}
+.fottor-contact {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.contact {
+    line-height: 31px;
+    margin-top: 30px;
+    text-align: center;
+}
+.ketamine-section {
+    width: 100%;
+    padding: 20px;
+}
+.details {
+    width: 100%;
+    padding: 0 20px 20px 20px;
+}
+
+
+
+}
